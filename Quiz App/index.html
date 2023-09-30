@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz App - Test your Knowledge</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">JS Quiz</p>
+                <p class="subtitle">Test your Knowledge</p>
+            </div>
+
+            <div class="result hide">
+                <p>Your Score is 5/5!</p>
+                <p class="reload">
+                    <button onclick="document.location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Upon encountering empty statements, what does the Javascript Interpreter do?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="q1">Throws an error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="q1">Ignore the statements</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="q1">Gives a warning</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="q1">None of the above</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. How can a datatype be declared to be a constant type?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A">
+                        <label for="q2">const</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="q2">var</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="q2">let</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="q2">constant</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3. What keyword is used to check whether a given property is valid or not?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A">
+                        <label for="q3">in</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="q3">is in</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="q3">exists</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="q3">lies</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. Javascript is an _______ language?.</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A">
+                        <label for="q4">Object-Oriented</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="q4">Object-Based</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="q4">Procedural</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="q4">None of the above</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. Which of the following keywords is used to define a variable in Javascript?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A">
+                        <label for="q5">var</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="q5">let</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="q5">Both A and B</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="q5">None of the above</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>  
+    <script src="./index.js"></script>
+</body>
+</html>
